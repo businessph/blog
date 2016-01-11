@@ -18,8 +18,14 @@ end
 
 
 root 'welcome#index'
+###ron does not have these 2 below
 get 'welcome/index'
 get '/articles/new'
+
+###
+
+###add get '/patients/:id', to: 'patients#show'
+###create a new controller, add def 
 
 
   # Example of regular route:
